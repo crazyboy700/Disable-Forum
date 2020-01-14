@@ -1,0 +1,10 @@
+<script type="text/javascript">
+    {foreach 'id'}
+    if(pb.data('user').id == 'user_id'){
+        document.body.style.display = 'none';
+        if(alert == 1){
+            alert("alert_message");
+        }
+    }
+    {/foreach}
+</script>
